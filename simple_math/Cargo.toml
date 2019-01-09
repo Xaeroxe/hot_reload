@@ -1,0 +1,11 @@
+[package]
+name = "simple_math"
+version = "0.1.0"
+authors = ["Jacob Kiesel <kieseljake@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "simple_math"
+crate-type = ["dylib"]
+
+[dependencies]
